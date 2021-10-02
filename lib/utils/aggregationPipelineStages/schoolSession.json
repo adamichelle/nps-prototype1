@@ -1,0 +1,8 @@
+{
+    "$lookup": {
+        "from": "schoolsessions",
+        "localField": "schoolSessionId",
+        "foreignField": "_id",
+        "as": "schoolSession"
+    }
+}

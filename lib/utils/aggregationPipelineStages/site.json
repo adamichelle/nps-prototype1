@@ -1,0 +1,8 @@
+{
+    "$lookup": {
+        "from": "sites",
+        "localField": "siteId",
+        "foreignField": "_id",
+        "as": "site"
+    }
+}
